@@ -9,18 +9,29 @@
     <h2>Registration Form</h2>
     <form action="/submit" method="post">
         <div>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
+            <label for="first-name">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required>
         </div>
         <br>
-        
-            <div>
-                <label for="dob">Date of Birth:</label>
-                <input type="date" id="dob" name="dob" required>
-                 
-            </div>
-            <br>
-            
+
+        <div>
+            <label for="last-name">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" required>
+        </div>
+        <br>
+
         <div>
             <label for="college">College:</label>
             <input type="text" id="college" name="college" required>
@@ -31,16 +42,16 @@
             <label for="department">Department:</label>
             <input type="text" id="department" name="department" required>
         </div>
-        <br> 
+        <br>
 
-     
+        
             <legend>Gender:</legend>
             <div>
                 <label for="male">
                     <input type="radio" id="male" name="gender" value="male" required> Male
                 </label>
             </div>
-            <br> 
+            <br>
             <div>
                 <label for="female">
                     <input type="radio" id="female" name="gender" value="female" required> Female
@@ -52,7 +63,7 @@
                     <input type="radio" id="other" name="gender" value="other" required> Other
                 </label>
             </div>
-       
+     
         <br>
 
         <div>
@@ -74,15 +85,15 @@
         <br>
 
         <div>
-            <label for="contact">contact:</label>
-            <input type="contact" id="contact" name="contact" required>
+            <label for="contact">Contact:</label>
+            <input type="text" id="contact" name="contact" required>
         </div>
         <br>
 
-       <button type="submit" onclick="alert"('User Registered')">Register</button>
-       <br> <br>
-       <span>Already registered</span>
-       <a href="file:///C:/Users/ADMIN/loginaishu/index.html?username=ret&password=ee%2C%2C">Login</a>
+        <button type="submit" onclick="alert('User Registered')">Register</button>
+        <br><br>
+        <span>Already registered</span>
+        <a href="file:///C:/Users/ADMIN/loginaishu/index.html?username=ret&password=ee%2C%2C">Login</a>
     </form>
 </body>
 </html>
